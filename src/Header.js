@@ -7,7 +7,7 @@ import SupervisorAccountIcon from '@mui/icons-material/SupervisorAccount';
 import BusinessCenterIcon from '@mui/icons-material/BusinessCenter';
 import ChatIcon from '@mui/icons-material/Chat';
 import NotificationsActiveIcon from '@mui/icons-material/NotificationsActive';
-
+import FaceIcon from '@mui/icons-material/Face';
 
 function Header() {
   return (
@@ -31,8 +31,7 @@ function Header() {
               <HeaderOption Icon={BusinessCenterIcon} title="Jobs" />
               <HeaderOption Icon={ChatIcon} title="Messaging" />
               <HeaderOption Icon={NotificationsActiveIcon} title="Notifications" />
-              <headerOption avatar="https://ih1.redbubble.net/image.2053091744.5872/st,small,507x507-pad,600x600,f8f8f8.jpg"
-                  title="Me" />
+              <HeaderOption Icon={FaceIcon} title="profile"/>
         
               
             
